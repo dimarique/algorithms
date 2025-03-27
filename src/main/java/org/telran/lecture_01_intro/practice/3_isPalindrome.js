@@ -10,15 +10,13 @@
 // Иначе, вывести "Строка - не палиндром".
 // Конец.
 
-const string = "cooc";
-let reversed = "";
 
-for (let i = string.length - 1; i >= 0; i--) {
-    reversed += string[i];
+for (let i = input.length - 1; i >= 0; i--) {
+	reversed += input[i]
 }
 
-if (string === reversed){
-    console.log("Палиндром");
-}else {
-    console.log("Не палиндром");
+if (input === reversed) {
+	console.log("Строка - палиндром")
+} else {
+	console.log("Строка - не палиндром")
 }

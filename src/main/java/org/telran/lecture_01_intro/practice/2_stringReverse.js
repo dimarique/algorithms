@@ -9,13 +9,12 @@
 // Добавить символ в конец результирующей строки.
 // Вывести результирующую строку.
 // Конец.
+//
 
-//              01234
-const string = "hello";
-let reversed = "";
-
-for (let i = string.length - 1; i >= 0; i--) {
-    reversed += string[i];
+const str = 'asdfghj'
+let reversed = ''
+for (let i = str.length - 1; i >= 0; i--) {
+	reversed += str[i]
 }
+console.log(reversed)
 
-console.log(reversed);

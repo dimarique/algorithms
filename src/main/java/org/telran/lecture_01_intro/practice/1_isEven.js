@@ -7,9 +7,11 @@
 // 4. Иначе, вывести "нечетное".
 
 // Решение
-const n = -8;
-if (n % 2 === 0){
-    console.log("Четное")
-}else{
-    console.log("Нечетное")
+
+const num = 4;
+if (num % 2 === 0) {
+	console.log('Четное')
+} else {
+	console.log('Нечетное')
 }
+
